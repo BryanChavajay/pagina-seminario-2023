@@ -12,7 +12,7 @@ link: "https://youtu.be/LhVOF5_d6WY"
 ## Datos del seminarista
 >|Nombre|Bryan Donald Thomas Chavajay Chocoy|
 >|:-----|:----------------------------------|
->|GitHub|hakdjsfha|
+>|GitHub|https://github.com/BryanChavajay|
 >|Contacto|bchavc19@gmail.com|
 
 ## Ficha del proyecto
