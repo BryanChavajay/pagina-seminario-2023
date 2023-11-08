@@ -1,54 +1,62 @@
 ---
-title: "The Power Of React Hooks"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
+title: "Sistema web de control administrativo para Cáritas Diócesis de Sololá Chimaltenango"
+publishedAt: 2023-10-28
+description: "Sistema para la administración de los proyectos, beneficiarios, planificaciones y donaciones."
+# <!--Sin espacios, solo guiones, nombre de tu sistema o tu tema-->
+slug: "sistema-web-control-administrativo" 
 isPublish: true
+# Aca coloca el link a tu video explicatorio del proyecto
+link: "https://youtu.be/LhVOF5_d6WY"
 ---
 
-## Vocesque meum remis est neque Neptunus monte
+## Datos del seminarista
+>|Nombre|Bryan Donald Thomas Chavajay Chocoy|
+>|:-----|:----------------------------------|
+>|GitHub|hakdjsfha|
+>|Contacto|bchavc19@gmail.com|
 
-Lorem markdownum nunc _adfuit_ fecisse, `quae pectus`, quod seu mortale suo
-Minerva iussit obortas. Favilla victa; alarum signis barbara, nec _sibi dentes_
-hostes?
+## Ficha del proyecto
+| **Nombre del Proyecto**  | Sistema web de control administrativo    |
+| :----------------------- | :--------------------------------------- |
+| **Lugar de aplicación**  | Cáritas Diócesis de Sololá Chimaltenango |
+| **Tipo de organización** | Fundación                                |
 
-## Corporibus Leucon
+<!-- Coloca tu objetivo general -->
+## Objetivo general
+Implementar un sistema web para el control administrativo en la 
+Fundación Cáritas Diócesis de Sololá Chimaltenango, con el cual 
+se podrá automatizar las operaciones administrativas y llevar un 
+control digital del inventario de las donaciones, así reducir el 
+tiempo que toma registrar y consultar información sumado a que se 
+minimice el riesgo de pérdida o manipulación indebida de la información.
 
-Quaeque viridis, pariter possit. Velatus Thetis, ab Buten, in et ite positis
-annis ut Troasque altaque. Ancaeus convertit conscia Phinea petis. Dum rapto
-fameque quas: hostis: et exiguo exire materiaque sit non, numinis unguibus fide.
-Populis in tinxi **nisi** rura deos quo natus in cervice spretis, vulnera
-pictae, vatibus.
+## Stack Tecnológico
+> Python 
+> Flask
+> PostgreSQL
+> React
 
-> Illi tenebras si vultum suae. Matrem iam: iniqua adire, tetigere meque,
-> cessant, gerebat.
+## Video presentación del proyecto
+<!-- Recuerda incrustar tu video -->
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/VFSCIjraODU?si=jc_8CPmjTeI3V7X5" allowfullscreen></iframe>
 
-## Montes ignarus precor rogabam primus ridet sanguine
+## Timelaps de todas las funcionalidades del sistema
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/3lOfgfQMIVI?si=KJmqbqWT6Y9MmwoP" allowfullscreen></iframe>
 
-In vir indefessus et patrios veniam. Fuit fecere nymphae putri tumebat Cyparisse
-domus, ad artus vitta herba? Et gaudet pressum aeterna animam. Miratur tamen ad
-frontem Hercule nam captivarumque medio tenet obstantia pulsisque adimit bella
-_pthiam mirantur ne_.
+## Factibilidad económica
+<!-- Colocar aca tu factibilidad económica -->
+El proyecto para la implementación del sistema web para el control administrativo para la fundación Cáritas Diócesis de Sololá Chimaltenango, contempla 4 fases, cada fase tiene un costo de acuerdo con el tiempo de elaboración y la complejidad de este, por lo que a continuación, se describen las fases y costos de la implementación del sistema.
 
-> Lacertis et nomenque oracla exstabat: genitor nitor! Fluctus habes extinctum.
-> Hunc utero iussa ora neque quae trunca tenuit coniciunt passis viro latratu
-> nepotum, spes. Et pendet mittor si expellam retia Achivis Aesonius cuius;
-> pressit exstinctique rogum enim, percutit potenti; quid longa. Nostra animaque
-> genetrice viae, quam virus sermone in videri.
+| No   | Fase                                        |        Subtotal |
+| :--- | :------------------------------------------ | --------------: |
+| 1    | Fase de determinación de los requerimientos |      Q.6,000.00 |
+| 2    | Diseño del sistema recomendado              |      Q.4,500.00 |
+| 3    | Desarrollo y documentación del sistema      |     Q.36,000.00 |
+| 4    | Fase de implementación y capacitación       |      Q.4,500.00 |
+|      | **Total**                                   | **Q.51,000.00** |
 
-## Rapit harundine vana
-
-Noctis et et carpis corpus amplexus; imagine indignanda pedum sospes; cornua
-super **et simus**. Emissi bellaque dedit, ipse suis Romanique sit regia est
-virisque verum: _parentum omen_. Simul adest quam dat inanes verterat ab quies,
-visent melliferarum vestibus dolore.
-
-Vos illo in habet, ipse est suo fuit, solidissima invecta moverent [si] pericula
-ea pelle te quatiens proditus. Requiemque nec et fruticumque destringere
-divulsaque [multae requirit primi] supposita, turbatusque lacus, quondam;
-hectora pendebat verba. Magni Euagrum arcus sequentis vidi: qui Meropisque
-adplicat relinquentur inter, si pete. Magna constitit ore rediit et parentis
-pomaria lumina seque aura.
+<!-- Colocar aca una frase que te guste -->
+> ### Si lo puedes imaginar, lo puedes programar - Alejandro Taboada
 
 [multae requirit primi]: http://heu.io/
 [si]: http://infelixlucina.net/mutati

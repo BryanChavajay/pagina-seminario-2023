@@ -7,9 +7,9 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Arch Linux Package",
-    techs: ["bash"],
-    link: "https://codenanshu.in/projects/ttf-apple-fonts/",
+    title: "Sistema web de control administrativo para Cáritas Diócesis de Sololá Chimaltenango",
+    techs: ["Python", "PostgreSQL", "Flask", "React"],
+    link: "https://youtube.com",
   },
   {
     title: "Firstly",

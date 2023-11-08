@@ -17,7 +17,10 @@ const posts = await getCollection("posts");
 <Layout>
   <main class="flex flex-col gap-20">
     <article class="flex flex-col gap-8">
-      <h1 class="text-3xl text-neutral-100">{presentation.title}</h1>
+      <img src="../../public/logo-doradoUMG.png" width="175px">
+      <strong>
+        <h1 class="text-3xl text-neutral-100">{presentation.title}</h1>
+      </strong>
       <h2
         class="max-w-[60ch] leading-6"
         set:html={convertAsteriskToStrongTag(presentation.description)}
@@ -27,8 +30,13 @@ const posts = await getCollection("posts");
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Latest posts</h3>
-        <Link href="/posts" label="See all posts" isUnderline target="_self" />
+        <h3 class="text-lg text-neutral-100">Proyectos Destacados</h3>
+        <Link
+          href="/posts"
+          label="Ver todos los proyectos"
+          target="_self"
+          style="background-color: #b49b66; border-radius: 5px; color: white; padding: 10px; text-aling: center;"
+        />
       </header>
       {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
 
@@ -52,8 +60,14 @@ const posts = await getCollection("posts");
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">
-          Selected projects ({projects.length})
-        </h3>
+          Videos presentaciones de proyectos ({projects.length})
+        </h3><Link
+          href="https://www.youtube.com/watch?v=3Rv9wgRmJSs&list=PLOK8xRHbMJTU4iPETfSj27GI6c6JWq4eg"
+          label="Playlist de los videos"
+          target="_self"
+          style="background-color: #b49b66; border-radius: 5px; color: white; padding: 10px; text-aling: center;"
+          target="_blank"
+        />
       </header>
       {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
 
@@ -66,17 +80,19 @@ const posts = await getCollection("posts");
     </article>
 
     <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
+      <SocialLinks />
+      <!-- <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Get in touch</h3>
-      </header>
+      </header> -->
       <p>
-        Email me at <Link
+        This page is made with ❤️ by <Link
           href={`mailto:${presentation.mail}`}
           label={presentation.mail}
-        /> or follow me via my social links.
+        /> and the help of <Link
+          href="https://github.com/gxanshu"
+          label="gxanshu"
+        />.
       </p>
-
-      <SocialLinks />
     </article>
   </main>
 </Layout>

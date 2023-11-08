@@ -8,7 +8,36 @@ const posts = await getCollection("posts");
 
 <Layout title="Template - All Posts">
   <main class="flex flex-col gap-20">
-    <h1 class="text-2xl text-neutral-100">Posts</h1>
+    <section>
+      <h2 class="text-2xl text-neutral-100">Explicación del seminario</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+        quibusdam facere voluptatibus voluptatum rerum nostrum vero iste unde
+        sunt incidunt iure, error accusamus ea numquam et exercitationem
+        voluptates laboriosam non.
+      </p>
+    </section>
+
+    <section>
+      <h2>Bienvenido al seminario</h2>
+      <br />
+      <iframe
+        width="100%"
+        height="475"
+        src="https://www.youtube.com/embed/LhVOF5_d6WY"
+        allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>Video 2</h2>
+      <iframe
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/LhVOF5_d6WY"
+        allowfullscreen></iframe>
+    </section>
+
+    <h1 class="text-2xl text-neutral-100">Proyectos</h1>
 
     <article class="flex flex-col gap-4">
       {

@@ -11,22 +11,18 @@ type Presentation = {
 };
 
 const presentation: Presentation = {
-  mail: "gxanshu@yahoo.com",
-  title: "Hi, I’m Anshu 👋",
+  mail: "bchavc19@gmail.com",
+  title: "Universidad Mariano Galvez de Guatemala, Sololá - Seminario 2023",
   description:
-    "Howdy, i'm a *indian software programmer* with over *5 years* of web experience. I am currently working with *NextJS and Typescript*. Outside of work I complete my pokemon card collection and learning TypeScript.",
+    "Bienvenido 👋, en esta página encontrarás los *proyectos* de los alumnos de *seminario 2023*",
   socials: [
     {
-      label: "Twiiter",
-      link: "https://twitter.com/gxanshu",
+      label: "YouTube",
+      link: "https://youtube.com/playlist?list=PLOK8xRHbMJTU4iPETfSj27GI6c6JWq4eg&si=4s6BtXsX-LZPQh4X",
     },
     {
-      label: "Bento",
-      link: "https://bento.me/gxanshu",
-    },
-    {
-      label: "Github",
-      link: "https://github.com/gxanshu",
+      label: "Faceboook",
+      link: "https://facebook.com",
     },
   ],
 };
