@@ -26,6 +26,46 @@ const projects: Project[] = [
     techs: ["SQL Server", ".Net Core 7", "Angular", "Node JS"],
     link: "https://www.youtube.com/watch?v=bewpEmcT3rE",
   },
+  {
+    title: "Sistema Web para la automatización y control de procesos de Café Misión San Lucas Tolimán, S. A.",
+    techs: ["TypeScript", "Angular", "MySQL", "Node JS"],
+    link: "https://youtu.be/oGwdRcRpzp4?si=QwvWKdbiGDokEOA8",
+  },
+  {
+    title: "Sistema web para la Gestión Contable Taxes GT",
+    techs: ["Python", "Flask", "PostgreSQL", "Boostrap"],
+    link: "https://youtu.be/fHWABkvDiqs",
+  },
+  {
+    title: "Diseño y desarrollo de sistema web para el control de la Granja Santa Sofía",
+    techs: ["Express", "Node JS", "Bootstrap", "MySQL", "Angular"],
+    link: "https://youtu.be/D4p96LKXY54",
+  },
+  {
+    title: "Sistema web de Compras, Inventario y Ventas MG Comerciales",
+    techs: ["PostgreSQL", "Express", "React", "Node JS"],
+    link: "https://youtu.be/pbIWVaygSDs",
+  },
+  {
+    title: "Sistema web para la Clinica Dental Ixmukane",
+    techs: ["Node JS", "Express", "PostgreSLQ", "React"],
+    link: "https://www.youtube.com/watch?v=3Rv9wgRmJSs&t=23s",
+  },
+  {
+    title: "Sistema web de control de inventario, pdorduccion y toma de pedidos",
+    techs: ["Angular", "TypeScript", "Node JS", "Express", "PostgreSQL"],
+    link: "https://www.youtube.com/watch?v=3Rv9wgRmJSs&t=23s",
+  },
+  {
+    title: "Sistema web para control de registro de pacientes de la clínica oftalmológica OPTICA 20/20",
+    techs: ["React", "Bootstrap", "Node JS", "Express"],
+    link: "https://youtu.be/4BBTPQTr_0g",
+  },
+  {
+    title: "Sistema web de gestión de fichas de calificaciones para la Asociación Quchooch, Santiago Atitlán, Sololá",
+    techs: ["ASP .NET Core 7", "Entity Framework", "SQL Server", "Vue JS"],
+    link: "https://www.youtube.com/watch?v=TpElA9gvDY8",
+  },
 ];
 
 export default projects;
