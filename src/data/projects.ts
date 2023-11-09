@@ -54,7 +54,7 @@ const projects: Project[] = [
   {
     title: "Sistema web de control de inventario, pdorduccion y toma de pedidos",
     techs: ["Angular", "TypeScript", "Node JS", "Express", "PostgreSQL"],
-    link: "https://www.youtube.com/watch?v=3Rv9wgRmJSs&t=23s",
+    link: "https://youtu.be/zp86doiFOqg?si=SHMWluNpQOD7oAu1",
   },
   {
     title: "Sistema web para control de registro de pacientes de la clínica oftalmológica OPTICA 20/20",
